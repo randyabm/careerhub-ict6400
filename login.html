@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login | CareerHub</title>
+  <meta name="description" content="Sign in to your CareerHub student account.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="index.html">CareerHub</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="login.html" aria-current="page">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="shell auth-wrap">
+      <section class="auth" aria-labelledby="login-heading">
+        <h1 id="login-heading">Student Login</h1>
+        <p>Sign in to reach your dashboard, saved jobs and applications.</p>
+
+        <form id="login-form" novalidate>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email"
+                   aria-describedby="email-error" placeholder="you@student.ozford.edu.au">
+            <p class="error" id="email-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"
+                   autocomplete="current-password" aria-describedby="password-error">
+            <p class="error" id="password-error" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" class="btn btn--solid">Login</button>
+
+          <p class="auth__alt">
+            New to CareerHub?
+            <a href="#" id="create-account">Create an account</a>
+          </p>
+          <p class="error" id="account-error" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>&copy; 2026 Student Career Hub | ICT6400 Assessment Project</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CareerHub sample resource data
+  ICT6400 Assessment 2 - Ozford Student Career Hub
+
+  The Resources page fetches this file and builds the cards from it. The
+  <body> text is what the Learn more popup shows, so the page itself carries
+  no resource copy.
+-->
+<resources updated="2026-10-16">
+
+  <resource id="R001">
+    <title>Write a resume that gets read</title>
+    <category>Resume and CV</category>
+    <icon>&#128196;</icon>
+    <summary>Structure a one or two page resume for a student with little work history.</summary>
+    <body>Put your name, course, phone number and email at the top, then a short profile of two or three lines. List your studies before your work history while you are still studying, because that is the most relevant thing you have. For each job, write two or three bullet points that say what you did and what changed as a result. Keep the whole document to one page for a first job, two pages once you have real experience. Save it as a PDF before you send it, and name the file with your own name rather than "resume final 3".</body>
+  </resource>
+
+  <resource id="R002">
+    <title>Turn a class project into experience</title>
+    <category>Resume and CV</category>
+    <icon>&#128203;</icon>
+    <summary>Describe university work in a way an employer outside the course can follow.</summary>
+    <body>Employers cannot judge a unit code, so translate it. Instead of "ICT6400 group project", write what the project did and what you contributed: three pages, responsive layout, and a contact form built with HTML, CSS and JavaScript. Name the tools and name your part. If the group built it, say which pieces were yours. A specific sentence about your contribution is worth more than a list of technologies you have seen in a lecture.</body>
+  </resource>
+
+  <resource id="R003">
+    <title>Cover letters, without the padding</title>
+    <category>Cover Letters</category>
+    <icon>&#9993;&#65039;</icon>
+    <summary>A three paragraph structure that fits one page and answers the advertisement.</summary>
+    <body>Paragraph one names the role and says in a sentence why you are applying. Paragraph two takes the two or three main requirements from the advertisement and answers each one with evidence from study, work or a project. Paragraph three says when you are available to start and thanks the reader. Keep it to one page and address it to a person where the advertisement names one. Rewrite it for every application. A letter that could be sent to anyone reads as if you sent it to everyone.</body>
+  </resource>
+
+  <resource id="R004">
+    <title>Answer the behaviour questions</title>
+    <category>Interview Preparation</category>
+    <icon>&#127908;</icon>
+    <summary>Prepare six stories that can be reused across most interview questions.</summary>
+    <body>Most interview questions ask for an example, so prepare examples rather than answers. Write six short stories: a time you solved a problem, dealt with a difficult customer, worked in a team, managed competing deadlines, learned something quickly, and made a mistake. For each one, set out the situation, what you did and what happened. Learn them well enough to adapt them, then answer any question with the closest story you have. Rehearsing out loud matters more than reading them again.</body>
+  </resource>
+
+  <resource id="R005">
+    <title>Questions worth asking at the end</title>
+    <category>Interview Preparation</category>
+    <icon>&#10067;</icon>
+    <summary>Three questions that show you have thought about the role.</summary>
+    <body>Ask how the team measures whether someone is doing well in the first three months. Ask what the training looks like in the first few weeks. Ask something specific you noticed in the advertisement or on their website. Avoid asking only about pay and holidays in a first interview; those questions belong at offer stage, and you can ask them then without awkwardness. Writing your questions down and taking the note in is fine, and it reads as prepared rather than as unprepared.</body>
+  </resource>
+
+  <resource id="R006">
+    <title>Plan a trimester around job hunting</title>
+    <category>Career Planning</category>
+    <icon>&#128506;&#65039;</icon>
+    <summary>Fit applications around assessment deadlines instead of against them.</summary>
+    <body>Look at your assessment calendar first and mark the weeks you cannot take on extra work. Apply in the gaps, and treat two well-targeted applications as a better week than ten rushed ones. Keep one simple list of what you applied for, when, and what came back. Review it monthly: if nothing is getting past the first stage, the problem is usually the resume rather than the number of applications.</body>
+  </resource>
+
+  <resource id="R007">
+    <title>Understand what part-time work adds</title>
+    <category>Career Planning</category>
+    <icon>&#128200;</icon>
+    <summary>Work out where a student job fits in a longer plan.</summary>
+    <body>Part-time work in retail or hospitality builds the customer and teamwork examples that later interviews ask for, so it is not a detour. Where you can, aim for at least one role in or near the industry you want, even if it starts at the front desk. Keep a note of anything you build, fix or improve at work, because in a year you will not remember the detail and that detail is what makes an application specific.</body>
+  </resource>
+
+  <resource id="R008">
+    <title>Set up a LinkedIn profile that supports applications</title>
+    <category>Career Planning</category>
+    <icon>&#128241;</icon>
+    <summary>A short profile that matches the resume you are sending.</summary>
+    <body>Use the same job titles, dates and course details as your resume, because differences between the two are noticed. Write a headline that names what you are studying and what you are looking for. Ask two people you have worked with to write one line about working with you. Then treat the profile as somewhere to record what you actually did each trimester, which makes writing the next resume far easier than reconstructing it from memory.</body>
+  </resource>
+
+</resources>

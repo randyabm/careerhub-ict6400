@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jobs | CareerHub</title>
+  <meta name="description" content="Search part-time, casual, internship and entry level opportunities for students.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="index.html">CareerHub</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jobs.html" aria-current="page">Jobs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-banner">
+      <div class="shell">
+        <h1>Jobs</h1>
+        <p>Search part-time, casual, internship and entry level opportunities.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <form class="search-bar" id="search-form" role="search">
+          <div class="field">
+            <label for="search-jobs">Keyword</label>
+            <input type="search" id="search-jobs" name="q"
+                   placeholder="Job title, organisation or suburb" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="filter-type">Job type</label>
+            <select id="filter-type" name="type">
+              <option value="Any">Any</option>
+            </select>
+          </div>
+          <div class="field">
+            <label class="visually-hidden" for="search-submit">Search</label>
+            <button class="btn btn--solid" type="submit" id="search-submit">Search Jobs</button>
+          </div>
+        </form>
+
+        <div class="filters" id="filter-categories" role="group" aria-label="Filter by category"></div>
+
+        <p class="result-line" id="result-count" role="status" aria-live="polite"></p>
+
+        <div class="card-grid" id="job-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="modal" id="detail-modal" aria-labelledby="detail-modal-title">
+    <div class="modal__body">
+      <p class="modal__cat" id="detail-modal-category"></p>
+      <h2 id="detail-modal-title"></h2>
+      <div id="detail-modal-body"></div>
+      <button type="button" class="btn btn--outline modal__close">Close</button>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>&copy; 2026 Student Career Hub | ICT6400 Assessment Project</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/jobs.js"></script>
+</body>
+</html>

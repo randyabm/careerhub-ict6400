@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard | CareerHub</title>
+  <meta name="description" content="Manage saved jobs, applications and recommendations in one place.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="index.html">CareerHub</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="dashboard.html" aria-current="page">Dashboard</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="shell dashboard-head">
+      <h1 id="dashboard-greeting">Welcome, Student!</h1>
+      <p>Manage your career activities from your dashboard.</p>
+    </div>
+
+    <section class="section" style="padding-top:1rem">
+      <div class="shell">
+        <div class="card-grid">
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#128100;</span>
+            <h3>My Profile</h3>
+            <p>View your student details and a summary of your activity on CareerHub.</p>
+            <div class="card__actions">
+              <button type="button" class="btn btn--outline" id="card-profile">View Profile</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#10084;&#65039;</span>
+            <h3>Saved Jobs</h3>
+            <p>View jobs you have saved for later. <strong><span id="count-saved">0</span> saved.</strong></p>
+            <div class="card__actions">
+              <button type="button" class="btn btn--outline" id="card-saved">View Saved Jobs</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#128203;</span>
+            <h3>Applications</h3>
+            <p>Track the jobs you have applied for. <strong><span id="count-applied">0</span> applied.</strong></p>
+            <div class="card__actions">
+              <button type="button" class="btn btn--outline" id="card-applied">View Applications</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#127919;</span>
+            <h3>Recommended Jobs</h3>
+            <p>Discover opportunities suggested from the roles you have already shown interest in. <strong><span id="count-recommended">0</span> suggested.</strong></p>
+            <div class="card__actions">
+              <button type="button" class="btn btn--outline" id="card-recommended">View Recommendations</button>
+            </div>
+          </article>
+        </div>
+
+        <section class="panel" id="dashboard-panel" hidden aria-live="polite">
+          <div class="panel__head">
+            <h2 id="panel-title"></h2>
+            <button type="button" class="btn btn--ghost" id="panel-hide">Hide</button>
+          </div>
+          <div id="panel-body"></div>
+        </section>
+
+        <p class="result-line">
+          Saved jobs and applications are kept in this browser, so they stay after a refresh
+          and clear when the browser data is cleared.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>&copy; 2026 Student Career Hub | ICT6400 Assessment Project</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

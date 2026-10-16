@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CareerHub sample job data
+  ICT6400 Assessment 2 - Ozford Student Career Hub
+
+  This file is the application's data layer. The Jobs page and the Dashboard
+  fetch it at runtime and build the cards from it, so the markup holds no job
+  content of its own. One <job> element per vacancy, with an id that stays
+  stable so saved jobs and applications can be stored by reference.
+-->
+<jobs updated="2026-10-16">
+
+  <job id="J001">
+    <title>Customer Service Assistant</title>
+    <organisation>Melbourne Retail Group</organisation>
+    <location>Melbourne CBD, VIC</location>
+    <type>Part-time</type>
+    <category>Retail and Customer Service</category>
+    <hours>15 to 20 hours per week</hours>
+    <rate>$28 to $32 per hour</rate>
+    <closing>2026-11-09</closing>
+    <summary>Front counter role serving customers, handling enquiries and keeping the shop floor presentable.</summary>
+    <requirements>
+      <requirement>Comfortable talking to customers face to face</requirement>
+      <requirement>Available for at least two weekday shifts</requirement>
+      <requirement>No previous retail experience required</requirement>
+    </requirements>
+  </job>
+
+  <job id="J002">
+    <title>Hospitality Team Member</title>
+    <organisation>Southbank Event Catering</organisation>
+    <location>Southbank, VIC</location>
+    <type>Casual</type>
+    <category>Hospitality and Events</category>
+    <hours>Shifts of 4 to 8 hours, weekends included</hours>
+    <rate>$31 per hour plus weekend loading</rate>
+    <closing>2026-11-16</closing>
+    <summary>Catering and event service work across conferences and functions in the Southbank precinct.</summary>
+    <requirements>
+      <requirement>Customer service manner</requirement>
+      <requirement>Willingness to work evenings and weekends</requirement>
+      <requirement>Food handling certificate is an advantage</requirement>
+    </requirements>
+  </job>
+
+  <job id="J003">
+    <title>Junior IT Intern</title>
+    <organisation>Collins Street Software</organisation>
+    <location>Melbourne CBD, VIC</location>
+    <type>Internship</type>
+    <category>Information Technology</category>
+    <hours>Two days per week for 12 weeks</hours>
+    <rate>$27 per hour</rate>
+    <closing>2026-11-02</closing>
+    <summary>Support role inside a small product team, covering help desk tickets, testing and documentation.</summary>
+    <requirements>
+      <requirement>Currently studying an IT degree</requirement>
+      <requirement>Basic HTML, CSS or JavaScript</requirement>
+      <requirement>Good written English</requirement>
+    </requirements>
+  </job>
+
+  <job id="J004">
+    <title>Administration Assistant</title>
+    <organisation>Ozford Student Services</organisation>
+    <location>Queen Street, Melbourne VIC</location>
+    <type>Part-time</type>
+    <category>Administration</category>
+    <hours>20 hours per week, flexible around classes</hours>
+    <rate>$30 per hour</rate>
+    <closing>2026-10-30</closing>
+    <summary>Reception and records support, including data entry, email triage and filing.</summary>
+    <requirements>
+      <requirement>Attention to detail</requirement>
+      <requirement>Confident with spreadsheets and email</requirement>
+      <requirement>Available during standard office hours</requirement>
+    </requirements>
+  </job>
+
+  <job id="J005">
+    <title>Junior Web Developer</title>
+    <organisation>Brunswick Digital Studio</organisation>
+    <location>Brunswick, VIC</location>
+    <type>Part-time</type>
+    <category>Information Technology</category>
+    <hours>Three days per week</hours>
+    <rate>$35 to $40 per hour</rate>
+    <closing>2026-11-20</closing>
+    <summary>Build and maintain client websites, working from existing design systems.</summary>
+    <requirements>
+      <requirement>HTML5 and CSS3</requirement>
+      <requirement>JavaScript, including working with data files</requirement>
+      <requirement>A portfolio of at least two projects</requirement>
+    </requirements>
+  </job>
+
+  <job id="J006">
+    <title>Data Entry Clerk</title>
+    <organisation>Docklands Freight Services</organisation>
+    <location>Docklands, VIC</location>
+    <type>Casual</type>
+    <category>Administration</category>
+    <hours>Flexible, 12 to 25 hours per week</hours>
+    <rate>$29 per hour</rate>
+    <closing>2026-11-06</closing>
+    <summary>Entering and checking shipment records, with accuracy targets and weekly reporting.</summary>
+    <requirements>
+      <requirement>Typing accuracy</requirement>
+      <requirement>Comfortable in spreadsheets</requirement>
+      <requirement>Reliable attendance</requirement>
+    </requirements>
+  </job>
+
+  <job id="J007">
+    <title>Library Student Assistant</title>
+    <organisation>Ozford Library</organisation>
+    <location>Queen Street, Melbourne VIC</location>
+    <type>Casual</type>
+    <category>Education and Support</category>
+    <hours>Up to 15 hours per week during trimester</hours>
+    <rate>$28 per hour</rate>
+    <closing>2026-10-28</closing>
+    <summary>Front desk support, shelving, and helping students locate resources and databases.</summary>
+    <requirements>
+      <requirement>Enrolled student of Ozford</requirement>
+      <requirement>Friendly and patient manner</requirement>
+      <requirement>Available around class timetable</requirement>
+    </requirements>
+  </job>
+
+  <job id="J008">
+    <title>Marketing Assistant</title>
+    <organisation>Carlton Creative Agency</organisation>
+    <location>Carlton, VIC</location>
+    <type>Internship</type>
+    <category>Marketing and Communications</category>
+    <hours>Two days per week for 10 weeks</hours>
+    <rate>$27 per hour</rate>
+    <closing>2026-11-13</closing>
+    <summary>Support campaign delivery, including social content scheduling and simple performance reporting.</summary>
+    <requirements>
+      <requirement>Writing and editing skills</requirement>
+      <requirement>Interest in social media and content</requirement>
+      <requirement>Basic spreadsheet reporting</requirement>
+    </requirements>
+  </job>
+
+  <job id="J009">
+    <title>Warehouse Assistant</title>
+    <organisation>Laverton Distribution Co</organisation>
+    <location>Laverton North, VIC</location>
+    <type>Casual</type>
+    <category>Warehouse and Logistics</category>
+    <hours>Shifts of 6 to 8 hours, weekday and weekend rosters</hours>
+    <rate>$30 per hour plus shift loading</rate>
+    <closing>2026-11-11</closing>
+    <summary>Picking, packing and stock movement in a mid-size distribution centre.</summary>
+    <requirements>
+      <requirement>Able to stand for long shifts</requirement>
+      <requirement>Own transport to reach Laverton North</requirement>
+      <requirement>Reliable and punctual</requirement>
+    </requirements>
+  </job>
+
+  <job id="J010">
+    <title>Peer Tutor, Mathematics</title>
+    <organisation>Ozford Learning Support</organisation>
+    <location>Queen Street, Melbourne VIC</location>
+    <type>Part-time</type>
+    <category>Education and Support</category>
+    <hours>6 to 10 hours per week</hours>
+    <rate>$33 per hour</rate>
+    <closing>2026-11-04</closing>
+    <summary>Run small group tutorials and drop-in sessions for students who need extra support with mathematics.</summary>
+    <requirements>
+      <requirement>Strong results in previous mathematics units</requirement>
+      <requirement>Confidence explaining work step by step</requirement>
+      <requirement>Patience with students at different levels</requirement>
+    </requirements>
+  </job>
+
+</jobs>
