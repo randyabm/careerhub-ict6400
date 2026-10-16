@@ -92,3 +92,30 @@ source, which is the argument for testing the built application rather than the 
 4. On the Jobs page, search, filter, save one job and apply for another, then open the Dashboard and
    confirm the counts and the panels.
 5. Clear the site data in the browser and reload the Dashboard to check the empty states.
+
+## 6. Hosted version
+
+The same files are published as a static site from the group's GitHub repository:
+
+    https://randyabm.github.io/careerhub-ict6400/
+
+GitHub Pages serves the folder over HTTPS from the repository root, so the application runs from a
+link with nothing installed locally. The published copy was checked in the same way as the local one:
+
+| Check | Actual | Result |
+|---|---|---|
+| `data/jobs.xml` served over HTTPS | HTTP 200, `application/xml`, 7588 bytes, correct content | Pass |
+| Jobs page builds its cards from the XML | 10 cards, 8 category chips, no error notice | Pass |
+| Keyword search | `tutor` returned 1 of 10 | Pass |
+| Save a job | `careerhub.savedJobs` = `["J001"]` | Pass |
+| Dashboard counts and panel | Saved 1, panel listed Customer Service Assistant | Pass |
+| Resources page and popup | 8 cards, popup opened with the XML body text | Pass |
+| Login validation | Empty form reported "Enter your email address." | Pass |
+| Login redirect under a subpath | Reached `/careerhub-ict6400/dashboard.html` | Pass |
+| Mobile navigation at 390px | Collapsed, opened on tap, `aria-expanded` true, one column, no sideways scroll | Pass |
+| Browser console | No JavaScript errors on any page | Pass |
+
+The site is served from a subpath rather than the domain root, which is a useful check in itself: every
+path in the project is relative, so nothing breaks when the application is not at the top level. The
+demonstration in class still runs from a local copy, so a network problem cannot interrupt it.
+
