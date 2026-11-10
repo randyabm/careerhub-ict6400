@@ -98,7 +98,7 @@ Two files hold all the sample content, so the HTML carries no job or resource co
   <category>Information Technology</category>
   <hours>Two days per week for 12 weeks</hours>
   <rate>$27 per hour</rate>
-  <closing>2026-11-02</closing>
+  <closing>2026-11-30</closing>
   <summary>Support role inside a small product team...</summary>
   <requirements>
     <requirement>Currently studying an IT degree</requirement>

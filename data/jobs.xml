@@ -8,7 +8,7 @@
   content of its own. One <job> element per vacancy, with an id that stays
   stable so saved jobs and applications can be stored by reference.
 -->
-<jobs updated="2026-10-16">
+<jobs updated="2026-11-10">
 
   <job id="J001">
     <title>Customer Service Assistant</title>
@@ -18,7 +18,7 @@
     <category>Retail and Customer Service</category>
     <hours>15 to 20 hours per week</hours>
     <rate>$28 to $32 per hour</rate>
-    <closing>2026-11-09</closing>
+    <closing>2026-12-07</closing>
     <summary>Front counter role serving customers, handling enquiries and keeping the shop floor presentable.</summary>
     <requirements>
       <requirement>Comfortable talking to customers face to face</requirement>
@@ -35,7 +35,7 @@
     <category>Hospitality and Events</category>
     <hours>Shifts of 4 to 8 hours, weekends included</hours>
     <rate>$31 per hour plus weekend loading</rate>
-    <closing>2026-11-16</closing>
+    <closing>2026-12-14</closing>
     <summary>Catering and event service work across conferences and functions in the Southbank precinct.</summary>
     <requirements>
       <requirement>Customer service manner</requirement>
@@ -52,7 +52,7 @@
     <category>Information Technology</category>
     <hours>Two days per week for 12 weeks</hours>
     <rate>$27 per hour</rate>
-    <closing>2026-11-02</closing>
+    <closing>2026-11-30</closing>
     <summary>Support role inside a small product team, covering help desk tickets, testing and documentation.</summary>
     <requirements>
       <requirement>Currently studying an IT degree</requirement>
@@ -69,7 +69,7 @@
     <category>Administration</category>
     <hours>20 hours per week, flexible around classes</hours>
     <rate>$30 per hour</rate>
-    <closing>2026-10-30</closing>
+    <closing>2026-11-27</closing>
     <summary>Reception and records support, including data entry, email triage and filing.</summary>
     <requirements>
       <requirement>Attention to detail</requirement>
@@ -86,7 +86,7 @@
     <category>Information Technology</category>
     <hours>Three days per week</hours>
     <rate>$35 to $40 per hour</rate>
-    <closing>2026-11-20</closing>
+    <closing>2026-12-18</closing>
     <summary>Build and maintain client websites, working from existing design systems.</summary>
     <requirements>
       <requirement>HTML5 and CSS3</requirement>
@@ -103,7 +103,7 @@
     <category>Administration</category>
     <hours>Flexible, 12 to 25 hours per week</hours>
     <rate>$29 per hour</rate>
-    <closing>2026-11-06</closing>
+    <closing>2026-12-04</closing>
     <summary>Entering and checking shipment records, with accuracy targets and weekly reporting.</summary>
     <requirements>
       <requirement>Typing accuracy</requirement>
@@ -120,7 +120,7 @@
     <category>Education and Support</category>
     <hours>Up to 15 hours per week during trimester</hours>
     <rate>$28 per hour</rate>
-    <closing>2026-10-28</closing>
+    <closing>2026-11-25</closing>
     <summary>Front desk support, shelving, and helping students locate resources and databases.</summary>
     <requirements>
       <requirement>Enrolled student of Ozford</requirement>
@@ -137,7 +137,7 @@
     <category>Marketing and Communications</category>
     <hours>Two days per week for 10 weeks</hours>
     <rate>$27 per hour</rate>
-    <closing>2026-11-13</closing>
+    <closing>2026-12-11</closing>
     <summary>Support campaign delivery, including social content scheduling and simple performance reporting.</summary>
     <requirements>
       <requirement>Writing and editing skills</requirement>
@@ -154,7 +154,7 @@
     <category>Warehouse and Logistics</category>
     <hours>Shifts of 6 to 8 hours, weekday and weekend rosters</hours>
     <rate>$30 per hour plus shift loading</rate>
-    <closing>2026-11-11</closing>
+    <closing>2026-12-09</closing>
     <summary>Picking, packing and stock movement in a mid-size distribution centre.</summary>
     <requirements>
       <requirement>Able to stand for long shifts</requirement>
@@ -171,7 +171,7 @@
     <category>Education and Support</category>
     <hours>6 to 10 hours per week</hours>
     <rate>$33 per hour</rate>
-    <closing>2026-11-04</closing>
+    <closing>2026-12-02</closing>
     <summary>Run small group tutorials and drop-in sessions for students who need extra support with mathematics.</summary>
     <requirements>
       <requirement>Strong results in previous mathematics units</requirement>
