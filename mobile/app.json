@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "CareerHub",
+    "slug": "careerhub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#f4f6f8",
+    "android": {
+      "package": "com.group5.careerhub",
+      "allowBackup": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#123a5c",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      "./plugins/withHttpsOnly",
+      "expo-font"
+    ]
+  }
+}
